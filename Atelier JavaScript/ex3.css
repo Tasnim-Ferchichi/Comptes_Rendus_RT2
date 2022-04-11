@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color:mistyrose;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+input {
+    background: mistyrose;
+    border: 1px solid black;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+input:focus {
+    outline: 3px solid lightpink;
+}
+label {
+    text-align: left;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 0;
+}
+button{
+    padding: 0px 10px;
+}
+ button:hover {
+    background: lightpink;
+}
+.container {
+    display: flex;
+}
+
+.elements {
+    flex: 1;
+    background-color: lightpink;
+    color: black;
+    margin: 2%;
+    padding: 2%;
+    height: 85vh;
+    border: 1px solid black;
+
+}

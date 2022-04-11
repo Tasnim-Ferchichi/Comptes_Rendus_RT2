@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color:mistyrose;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+form{
+    display: table;
+   
+}
+
+div{
+    display: table-cell;
+    padding: 20px;
+}
+
+fieldset{
+    padding: 1em;
+    padding-bottom:2em;
+    padding-left:2em;
+    border-color:black;
+    border-radius:5px;
+    width:auto;
+    text-align:left;
+}
+
+
+#text{
+    text-align: center;
+    size: 20px;
+    font-family: monospace;
+}
