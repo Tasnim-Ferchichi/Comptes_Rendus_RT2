@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Livraison Sandwiches</title>
+    </head>
+    <body>
+    <font  align="center">
+     <fieldset>
+        <legend><b>Livraison rapide de sandwiches</b></legend>
+        <br>
+        <form action="./recap.php" method="POST" enctype="multipart/form-data" >
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" name="nom"  id="nom" placeholder="Nom" required />
+            </div>  
+            <br>
+
+
+            <div>
+                <label for="prenom">Votre prénom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom" required/>
+            </div>
+            <br>
+
+            <div>
+                <label for="nombre">Combien de sandwiches voulez-vous commander? </label>
+                <input type="number" name="nb" id="nombre" placeholder="Nombre de Sandwich" required />
+            </div>
+            <br>
+
+            <div>
+                <label for="adr">Votre adresse </label>
+                <input type="text" name="adresse" id="adr" placeholder="Adresse" required />
+            </div>
+            <br>
+
+            <div>
+                <select name="type" required>
+                    <option>Selectionner le type du sandwich</option>
+                    <option value="viande">Viande</option>
+                    <option value="poulet">Poulet</option>
+                    <option value="escalope">Escalope</option>
+                </select>
+            </div>
+            <br>
+
+            <div>Selectionnez les ingrédients à ajouter </div>
+            <div><input name="add[]" type="checkbox" value="harissa" />Harissa</div>
+            <div><input name="add[]" type="checkbox" value="salade" />Salade</div>
+            <div><input name="add[]" type="checkbox" value="mayo" />Mayo</div>
+            <br>
+
+
+            <div>CIN:
+            <input type="file" name="cin" required /></div>
+            <br>
+
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </fieldset>
+    </font>
+ </body>
+</html>
