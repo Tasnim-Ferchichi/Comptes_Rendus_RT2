@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insciption</title>
+
+  </head>
+<body>
+  <h1 align="center">Inscription en licence</h1>
+</body>
+
+
+<form action="Video.html">
+	<font align="center">
+		 <fieldset>
+		 <legend>Informtionspersonnelles</legend>
+		 <label for="fname">Votre nom </label>
+		 <input type="txt" Name="fname" placeholder="votrenom? " Id="fname" size =15 maxlength=30>
+<br>
+<br>
+		 <label for="lname">Votre prénom </label>
+		 <input type="txt" Name="lname" Id="lname" placeholder="Votre nom?" size =15 maxlength=30>
+<br><br>
+     <label for="age">Votre age </label>
+		 <input type="number" Name="age" Id="age" placeholder="Votre age?" size =15 maxlength=30>
+<br><br>
+<label for="date">Votre date de naissance</label>
+<input type="date" Name="date" Id="date" placeholder="Votre date de naissance?" size =15 maxlength=30>
+<br><br>
+
+     <label >Votre adresse</label>
+     <textarea name="adresse"  placeholder="Votre adresse?"  rows="10" cols="40"></textarea>
+<br><br>
+<label >Email</label>
+<input type="email" placeholder="votre email">
+<br><br>
+<label >URL</label>
+<input type="url" placeholder="votre URL">
+<br><br>
+     <label for="passwd">Mot de passe</label>
+     <input type="password" required name="passwd"/>
+<br> <br>
+     <label for="passwd1">Repetez votre mot de passe</label>
+     <input  type="password" required name="passwd1">
+<br><br>
+
+       </fieldset>
+       <br>
+<fieldset>
+<legend>  Gestion des groupes et des options</legend>
+<labe>Votre groupe: </labe>
+<input type="radio" name="v1" value="groupe1">groupe1
+<input type="radio" name="v2" value="groupe2">groupe2
+<input type="radio" name="v3" value="groupe3">groupe3
+
+<br><br>
+     <label >Votre age </label>
+		 <input type="num carte etudiant" Name="num carte etudiant"  placeholder="num carte etudiant" size =15 maxlength=30>
+<br><br>
+<label >Choisissez les options que vous desirez</label
+  <SELECT NAME="option" >
+<OPTION VALUE="J2ee"> J2ee
+<OPTION VALUE="Android"> Android
+<OPTION VALUE="Net"> Net
+<OPTION VALUE="HTML5"> HTML5
+<OPTION VALUE="Flex"> Flex
+</SELECT>
+
+
+</fieldset>
+</font>
+
+<div  align="center">
+  <a href="">
+<input  type="submit" value="valider">
+  </a>
+<input  type="reset" value="réinitialiser">
+</div>
+<br>
+  <textarea name="securite"  pattern=[I][N][S][A][T][0-9]{4} ></textarea>
+       </form>
+
+
+</html>
