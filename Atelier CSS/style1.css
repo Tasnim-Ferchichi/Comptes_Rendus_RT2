@@ -1,0 +1,124 @@
+.top{
+    margin:0;
+    padding: 0;
+    height: 52px;
+    width: 1500;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    z-index: 1;
+    margin:0;
+}
+
+.flash{
+    height: auto;
+    width: auto;
+}
+
+header{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 946px;
+    padding: 0;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 946px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    display:table; 
+    height: 50px;
+    width: 946px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 0;
+}
+
+ul li{
+    display:table-cell;
+    background-color: darkred;
+}
+
+ul li a{
+
+    display: block;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a:hover{
+    display: block;
+    background-image: url(img/rings.png);
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+h2{
+    color:darkred;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.div1{
+    width:946px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.div2{
+    width:946px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.texte{
+    display: block;
+    height: auto;
+    width: 450px;
+}
+
+#continue{
+    color: darkred;
+    font-weight: bolder;
+    text-decoration:none ;
+}
+
+footer div {
+    margin: 20px;
+    width: 1500;
+}
